@@ -9,7 +9,7 @@ f.active_(true); // turn it on the first time;
 
 w.onClose_({ f.kill }); // you must have this
 w.front;
-{ SinOsc.ar([500, 1000], 0, 0.25).mean.dup }.play(s); // start two sine waves
+//{ SinOsc.ar([500, 1000], 0, 0.25).mean.dup }.play(s); // start two sine waves
 )
 
 f.freqMode_(1); // change to log scale so we can see them
